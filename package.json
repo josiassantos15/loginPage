@@ -1,0 +1,23 @@
+{
+  "name": "login-page-typescript",
+  "version": "1.0.0",
+  "description": "Project to create a login page with Typescript",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josias Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "tsc": "^2.0.4"
+  }
+}
